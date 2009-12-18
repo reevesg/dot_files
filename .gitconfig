@@ -1,0 +1,26 @@
+[user]
+name = Gareth Reeves
+email = greeves@drwholdings.com
+[core]
+excludesfile = /Users/greeves/.gitignore
+editor = mate -wl1 
+[apply]
+whitespace = nowarn
+[alias]
+co = checkout
+br = branch
+ci = commit
+st = status
+di = diff
+unstage = reset HEAD --
+last = log -1 HEAD
+di2 = diff --staged
+ci2 = commit -v
+
+  [color]
+ui = auto
+
+
+[github]
+	user = reevesg
+	token = 391e727bdaaf7c2adeefe18d17c14db3
